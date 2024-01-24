@@ -12,6 +12,14 @@ For example, see a structure of the following two libraries `Foo` and `Bar`:
 |  |--Constant
 |  |  |-- Constants.h
 |  |
+|  |--Filter_MA
+|  |  |- Filter_MA.h
+|  |  |- Filter_MA.cpp
+|  |
+|  |--Filter_Median
+|  |  |- Filter_Median.h
+|  |  |- Filter_Median.cpp
+|  |
 |  |--Filter_LPF1
 |  |  |- Filter_LPF1.h
 |  |  |- Filter_LPF1.cpp

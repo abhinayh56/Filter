@@ -7,6 +7,8 @@
 #include "Filter_BPF.h"
 #include "Filter_SRF.h"
 #include "Filter_HNF.h"
+#include "Filter_MA.h"
+#include "Filter_Median.h"
 
 void setup(){
 }
