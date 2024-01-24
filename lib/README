@@ -9,17 +9,39 @@ For example, see a structure of the following two libraries `Foo` and `Bar`:
 
 |--lib
 |  |
-|  |--Bar
-|  |  |--docs
-|  |  |--examples
-|  |  |--src
-|  |     |- Bar.c
-|  |     |- Bar.h
-|  |  |- library.json (optional, custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
+|  |--Constant
+|  |  |-- Constants.h
 |  |
-|  |--Foo
-|  |  |- Foo.c
-|  |  |- Foo.h
+|  |--Filter_LPF1
+|  |  |- Filter_LPF1.h
+|  |  |- Filter_LPF1.cpp
+|  |
+|  |--Filter_LPF2
+|  |  |- Filter_LPF2.h
+|  |  |- Filter_LPF2.cpp
+|  |
+|  |--Filter_HPF1
+|  |  |- Filter_HPF1.h
+|  |  |- Filter_HPF1.cpp
+|  |
+|  |--Filter_HPF2
+|  |  |- Filter_HPF2.h
+|  |  |- Filter_HPF2.cpp
+|  |
+|  |--Filter_BPF
+|  |  |- Filter_BPF.h
+|  |  |- Filter_BPF.cpp
+|  |
+|  |--Filter_BSF
+|  |  |- Filter_BSF.h
+|  |  |- Filter_BSF.cpp
+|  |
+|  |--Filter_SRF
+|  |  |- Filter_SRF.h
+|  |  |- Filter_SRF.cpp
+|  |
+|  |--docs
+|  |  |- Filters.pdf
 |  |
 |  |- README --> THIS FILE
 |
