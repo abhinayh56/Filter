@@ -36,6 +36,10 @@ For example, see a structure of the following two libraries `Foo` and `Bar`:
 |  |  |- Filter_BSF.h
 |  |  |- Filter_BSF.cpp
 |  |
+|  |--Filter_HNF
+|  |  |- Filter_HNF.h
+|  |  |- Filter_HNF.cpp
+|  |
 |  |--Filter_SRF
 |  |  |- Filter_SRF.h
 |  |  |- Filter_SRF.cpp
