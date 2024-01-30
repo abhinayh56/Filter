@@ -61,21 +61,23 @@ float LPF1_filter::get_alpha(){
 }
 
 float LPF1_filter::get_y(){
-	return y;
+	return y_i;
 }
 
-void LPF1_filter::cal_y(float x){
+float LPF1_filter::update(float x_i){
 	if(start==true){
 		start = false;
-		y = x;
+		y_i = x_i;
 	}
 	else{
-		y = alpha*x + (1.0 - alpha)*y_pre;
+		y_i = alpha*x_i + (1.0 - alpha)*y_i_1;
 	}
-	y_pre = y;
+	y_i_1 = y_i;
+	return y_i;
 }
 
 void LPF1_filter::reset(){
-	y_pre = 0.0;
+	y_i_1 = 0.0;
+	y_i = 0.0;
 	start = true;
 }

@@ -61,23 +61,26 @@ float HPF1_filter::get_alpha(){
 }
 
 float HPF1_filter::get_y(){
-	return y;
+	return y_i;
 }
 
-void HPF1_filter::cal_y(float x){
+float HPF1_filter::update(float x_i){
 	if(start==true){
 		start = false;
-		y = x;
+		y_i = x_i;
 	}
 	else{
-		y = alpha*(y_pre + x - x_pre);
+		y_i = alpha*(y_i_1 + x_i - x_i_1);
 	}
-	x_pre = x;
-	y_pre = y;
+	x_i_1 = x_i;
+	y_i_1 = y_i;
+
+	return y_i;
 }
 
 void HPF1_filter::reset(){
-	x_pre = 0.0;
-	y_pre = 0.0;
+	x_i_1 = 0.0;
+	y_i_1 = 0.0;
+	y_i = 0.0;
 	start = true;
 }

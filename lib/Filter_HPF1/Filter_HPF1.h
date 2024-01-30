@@ -22,7 +22,7 @@ class HPF1_filter{
 
 		float get_y();
 
-		void cal_y(float x_i);
+		float update(float x_i);
 		void reset();
 
 	private:
@@ -31,9 +31,9 @@ class HPF1_filter{
 		float dt = 0.0;
 		float alpha = 0.0;
 
-		float x_pre = 0.0;
-		float y_pre = 0.0;
-		float y = 0.0;
+		float x_i_1 = 0.0;
+		float y_i_1 = 0.0;
+		float y_i = 0.0;
 		bool start = true;
 };
 
