@@ -29,7 +29,7 @@ Vect3D Quaternion::get_vector(Quat q1){
 	return v;
 }
 
-Quat Quaternion::unit() {
+Quat Quaternion::identity() {
 	Quat q3(1, 0, 0, 0);
 	return q3;
 }
@@ -147,6 +147,8 @@ Quat Quaternion::log_e(Quat q) {
 	return q2;
 }
 
+////////////////////////////////////////////////////////////
+
 Diff::Diff() {
 }
 
@@ -163,6 +165,7 @@ void Diff::reset(){
 	q_t_1 = quat.zero();
 }
 
+////////////////////////////////////////////////////////////
 
 Integrate::Integrate(){
 }

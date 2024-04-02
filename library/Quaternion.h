@@ -21,7 +21,7 @@ public:
 	~Quaternion();
 	double get_scalar(Quat q1);
 	Vect3D get_vector(Quat q1);
-	Quat unit();
+	Quat identity();
 	Quat zero();
 	Quat add(Quat q1, Quat q2);
 	Quat sub(Quat q1, Quat q2);
@@ -37,6 +37,8 @@ public:
 	Quat log_e(Quat q);
 };
 
+////////////////////////////////////////////////////////////
+
 class Diff {
 public:
 	Diff();
@@ -48,6 +50,8 @@ private:
 	Quat q_t_1 = quat.zero();
 
 };
+
+////////////////////////////////////////////////////////////
 
 class Integrate {
 public:
