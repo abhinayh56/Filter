@@ -127,23 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D.cpp" />
-    <ClCompile Include="D_LPF_1.cpp" />
-    <ClCompile Include="I.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="P.cpp" />
-    <ClCompile Include="PID.cpp" />
-    <ClCompile Include="Quaternion.cpp" />
-    <ClCompile Include="Vector3D.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="D.h" />
-    <ClInclude Include="D_LPF_1.h" />
-    <ClInclude Include="I.h" />
-    <ClInclude Include="P.h" />
-    <ClInclude Include="PID.h" />
-    <ClInclude Include="Quaternion.h" />
-    <ClInclude Include="Vector3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
