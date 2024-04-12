@@ -1,5 +1,5 @@
-#ifndef D_CONTROLLER
-#define D_CONTROLLER
+#ifndef CONTROL_SYSTEM_D
+#define CONTROL_SYSTEM_D
 
 class D_controller {
 public:

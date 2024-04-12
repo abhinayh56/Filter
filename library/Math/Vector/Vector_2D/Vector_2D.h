@@ -2,7 +2,7 @@
 #define VECTOR_2D
 
 #include <math.h>
-#include "data_type_geometry.h"
+#include "Vect_2D.h"
 
 class Vector_2D {
 public:

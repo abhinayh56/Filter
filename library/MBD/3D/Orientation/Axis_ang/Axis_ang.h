@@ -1,5 +1,5 @@
-#ifndef AXIS_ANG
-#define AXIS_ANG
+#ifndef ORIENTATION_3D_AXIS_ANG
+#define ORIENTATION_3D_AXIS_ANG
 
 #include "Vect_3D.h"
 

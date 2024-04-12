@@ -1,5 +1,5 @@
-#ifndef P_CONTROLLER
-#define P_CONTROLLER
+#ifndef CONTROL_SYSTEM_P
+#define CONTROL_SYSTEM_P
 
 class P_controller {
 public:

@@ -1,5 +1,5 @@
-#ifndef QUAT
-#define QUAT
+#ifndef ORIENTATION_3D_QUAT
+#define ORIENTATION_3D_QUAT
 
 class Quat {
 public:

@@ -1,5 +1,5 @@
-#ifndef PD_CONTROLLER
-#define PD_CONTROLLER
+#ifndef CONTROL_SYSTEM_PD
+#define CONTROL_SYSTEM_PD
 
 class PD_controller {
 public:

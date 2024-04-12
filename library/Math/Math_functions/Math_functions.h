@@ -44,30 +44,4 @@ class Circle{
     void intersection_circle(float c1x, float c1y, float r1, float c2x, float c2y, float r2, float* x01, float* y01, float* x02, float* y02);
 };
 
-class Point_2D{
-  public:
-    float x = 0.0;
-    float y = 0.0;
-};
-
-class Point_3D{
-  public:
-    float x = 0.0;
-    float y = 0.0;
-    float z = 0.0;
-};
-
-class Vector_2D{
-  public:
-    float x = 0.0;
-    float y = 0.0;
-};
-
-class Vector_3D{
-  public:
-    float x = 0.0;
-    float y = 0.0;
-    float z = 0.0;
-};
-
 #endif

@@ -1,5 +1,5 @@
-#ifndef POS_3D_SPHERICAL
-#define POS_3D_SPHERICAL
+#ifndef TRANSLATION_3D_SPHERICAL
+#define TRANSLATION_3D_SPHERICAL
 
 class Spherical{
 public:

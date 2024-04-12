@@ -1,5 +1,5 @@
-#ifndef POS_3D_CYLINDRICAL
-#define POS_3D_CYLINDRICAL
+#ifndef TRANSLATION_3D_CYLINDRICAL
+#define TRANSLATION_3D_CYLINDRICAL
 
 class Cylindrical{
 public:

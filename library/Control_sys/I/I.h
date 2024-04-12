@@ -1,5 +1,5 @@
-#ifndef I_CONTROLLER
-#define I_CONTROLLER
+#ifndef CONTROL_SYSTEM_I
+#define CONTROL_SYSTEM_I
 
 #include "Math_functions.h"
 

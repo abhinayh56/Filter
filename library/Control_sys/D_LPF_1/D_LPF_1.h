@@ -1,5 +1,5 @@
-#ifndef D_LPF_CONTROLLER
-#define D_LPF_CONTROLLER
+#ifndef CONTROL_SYSTEM_D_LPF_1
+#define CONTROL_SYSTEM_D_LPF_1
 
 #include "Constants.h"
 

@@ -1,5 +1,5 @@
-#ifndef POS_2D_CARTESIAN
-#define POS_2D_CARTESIAN
+#ifndef TRANSLATION_2D_CARTESIAN
+#define TRANSLATION_2D_CARTESIAN
 
 class Cartesian_2D{
 public:

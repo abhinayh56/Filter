@@ -1,5 +1,5 @@
-#ifndef POS_2D_ELLIPTIC
-#define POS_2D_ELLIPTIC
+#ifndef TRANSLATION_2D_ELLIPTIC
+#define TRANSLATION_2D_ELLIPTIC
 
 class Elliptic{
 public:

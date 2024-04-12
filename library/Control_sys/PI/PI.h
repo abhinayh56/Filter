@@ -1,5 +1,5 @@
-#ifndef PI_CONTROLLER
-#define PI_CONTROLLER
+#ifndef CONTROL_SYSTEM_PI
+#define CONTROL_SYSTEM_PI
 
 #include "Math_functions.h"
 

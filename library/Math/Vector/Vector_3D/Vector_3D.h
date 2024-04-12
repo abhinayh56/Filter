@@ -2,7 +2,7 @@
 #define VECTOR_3D
 
 #include <math.h>
-#include "data_type_geometry.h"
+#include "Vect_3D.h"
 
 class Vector_3D {
 public:

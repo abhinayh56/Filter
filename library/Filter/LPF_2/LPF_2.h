@@ -1,12 +1,12 @@
-#ifndef FILTER_LPF2
-#define FILTER_LPF2
+#ifndef FILTER_LPF_2
+#define FILTER_LPF_2
 
 #include "Constants.h"
 #include <stdint.h>
 
-class LPF2_filter{
+class LPF_2{
 	public:
-		LPF2_filter();
+		LPF_2();
 
 		void set_param(float fc_, float Q_, float dt_);
 		void get_param(float* fc_, float* Q_, float* dt_);

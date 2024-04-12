@@ -1,8 +1,8 @@
-#ifndef QUATERNION
-#define QUATERNION
+#ifndef ORIENTATION_3D_QUATERNION
+#define ORIENTATION_3D_QUATERNION
 
 #include <math.h>
-#include "data_type_geometry.h"
+#include "Quat.h"
 
 class Quaternion
 {

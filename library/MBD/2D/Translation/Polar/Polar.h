@@ -1,5 +1,5 @@
-#ifndef POS_2D_POLAR
-#define POS_2D_POLAR
+#ifndef TRANSLATION_2D_POLAR
+#define TRANSLATION_2D_POLAR
 
 class Polar{
 public:

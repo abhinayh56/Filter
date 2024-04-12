@@ -1,5 +1,5 @@
-#ifndef POS_3D_ELLIPSOIDAL
-#define POS_3D_ELLIPSOIDAL
+#ifndef TRANSLATION_3D_ELLIPSOIDAL
+#define TRANSLATION_3D_ELLIPSOIDAL
 
 class Ellipsoidal{
 public:
