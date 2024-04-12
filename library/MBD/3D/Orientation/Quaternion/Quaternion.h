@@ -28,6 +28,8 @@ public:
 	Quat pow_scalar(Quat q, double r);
 	Quat exp_quat(Quat q);
 	Quat log_e(Quat q);
+	Quat lerp(Quat q1, Quat q2, double tau);
+	Quat slerp(Quat q1, Quat q2, double tau);
 };
 
 ////////////////////////////////////////////////////////////

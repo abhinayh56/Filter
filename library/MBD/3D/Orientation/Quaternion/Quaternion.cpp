@@ -1,11 +1,9 @@
 #include "Quaternion.h"
 
-Quaternion::Quaternion()
-{
+Quaternion::Quaternion(){
 }
 
-Quaternion::~Quaternion()
-{
+Quaternion::~Quaternion(){
 }
 
 double Quaternion::get_scalar(Quat q1) {
